@@ -15,11 +15,8 @@ gems:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-bootstrap-sass
 exclude:
   - Gemfile
   - Gemfile.lock
-bootstrap:
-  assets: true
 sass:
-    style: :compressed
+  style: :compressed
