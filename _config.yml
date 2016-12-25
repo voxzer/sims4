@@ -21,3 +21,5 @@ exclude:
   - Gemfile.lock
 bootstrap:
   assets: true
+sass:
+    style: :compressed
