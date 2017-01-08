@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}" prefix="og: http://ogp.me/ns#">
 <head>
   {% include head.html %}
 </head>
 <body>
-    {% include header.html %}
+<div class="wrapper-outer">
+<div class="background-cover"></div>
+<div id="wrapper" class="boxed-all">
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
       </div>
     </main>
     {% include footer.html %}
+</div>
+</div>
 </body>
 </html>

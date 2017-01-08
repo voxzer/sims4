@@ -1,6 +1,7 @@
 title: Sims4Hub
+name: Sims4Hub
 email: your-email@domain.com
-description: Write an awesome description for your new site here. You can edit this search results) and in your feed.xml site description.
+description: "Write an awesome description for your new site here. You can edit this search results and in your feed.xml site description."
 baseurl: ""
 url: "https://sims4hub.ga"
 twitter_username: jekyllrb
